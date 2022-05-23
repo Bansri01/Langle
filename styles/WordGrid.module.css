@@ -1,0 +1,48 @@
+.gridRow {
+    display: flex;
+    width: 100%;
+    max-width: 315px;
+}
+
+.gridRow:not(:first-child) {
+    margin-top: 5px;
+}
+
+.letter {
+    cursor: default;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -20px;
+    left: -20px;
+    bottom: -20px;
+    right: -20px;
+}
+
+.letterWrapper {
+    position: relative;
+    height: 60px;
+    max-width: 60px;
+    width: 100%;
+    border: 2px solid rgba(127, 127, 127, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.letterWrapper:not(:last-child) {
+    margin-right: 5px;
+}
+
+.letter span {
+    opacity: 1 !important;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.button {
+    margin-right: 5px;
+}

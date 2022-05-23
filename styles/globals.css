@@ -1,0 +1,66 @@
+/* General Styles */
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.mantine-SegmentedControl-active {
+    background-color: rgba(127, 127, 127, 0.15);
+}
+
+.center {
+    text-align: center;
+}
+
+.fade {
+    animation: fadeout 0.2s;
+    opacity: 0;
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+/* Color styles */
+
+.green,
+.yellow,
+.gray {
+    color: black;
+}
+
+.green {
+    background-color: #6aaa64;
+}
+
+.yellow {
+    background-color: #c9b458;
+}
+
+.gray {
+    background-color: #86888a;
+}
